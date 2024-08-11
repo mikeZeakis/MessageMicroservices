@@ -7,9 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessageContracts", "Message
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InvoiceMicroservice", "InvoiceMicroservice\InvoiceMicroservice.csproj", "{CAA31223-1E8D-441D-8506-19E2003F711F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentMicroservice", "PaymentMicroservice\PaymentMicroservice.csproj", "{E3EA2AC8-BD75-4B24-A8AE-C65B52A6E8CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentMicroservice", "PaymentMicroservice\PaymentMicroservice.csproj", "{E3EA2AC8-BD75-4B24-A8AE-C65B52A6E8CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestClient", "TestClient\TestClient.csproj", "{AAE93F7D-79AC-4AD4-874F-E587462A081C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestClient", "TestClient\TestClient.csproj", "{AAE93F7D-79AC-4AD4-874F-E587462A081C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsumerTests", "ConsumerTests\ConsumerTests.csproj", "{3CA9CC99-E698-4570-AB05-D0F9247BD4F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProducerTests", "ProducerTests\ProducerTests.csproj", "{257C1BA8-27B7-4F80-B461-95C62CD4A757}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{AAE93F7D-79AC-4AD4-874F-E587462A081C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AAE93F7D-79AC-4AD4-874F-E587462A081C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AAE93F7D-79AC-4AD4-874F-E587462A081C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CA9CC99-E698-4570-AB05-D0F9247BD4F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CA9CC99-E698-4570-AB05-D0F9247BD4F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CA9CC99-E698-4570-AB05-D0F9247BD4F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CA9CC99-E698-4570-AB05-D0F9247BD4F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{257C1BA8-27B7-4F80-B461-95C62CD4A757}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{257C1BA8-27B7-4F80-B461-95C62CD4A757}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{257C1BA8-27B7-4F80-B461-95C62CD4A757}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{257C1BA8-27B7-4F80-B461-95C62CD4A757}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
